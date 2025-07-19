@@ -12,7 +12,7 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
             .info(new Info()
-                .title("API Bodega 2025")
+                .title("API Tienda 2025")
                 .version("1.0")
                 .description("Documentación de la API para gestionar tiendas"));
     }
